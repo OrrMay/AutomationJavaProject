@@ -1,5 +1,5 @@
 package CurrencyConverter;
 
-public interface iCalculator {
+public interface iCalculate {
         double calculate(double value);
 }

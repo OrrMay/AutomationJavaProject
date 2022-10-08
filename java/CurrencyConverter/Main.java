@@ -83,7 +83,7 @@ public class Main {
         for (Results result : valueList){
             System.out.println(result.convertToString());
         }
-        // Writes to the txt file
+        // Writes to txt file
         File output = new File("results.txt");
         try{
             FileWriter fileWriter = new FileWriter("results.txt");

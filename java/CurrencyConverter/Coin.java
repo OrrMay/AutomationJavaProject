@@ -1,7 +1,7 @@
 package CurrencyConverter;
 
 
-public abstract class Coin implements iCalculator{
+public abstract class Coin implements iCalculate {
     public abstract double getValue();
 }
 

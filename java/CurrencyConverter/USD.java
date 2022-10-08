@@ -2,7 +2,7 @@ package CurrencyConverter;
 
 public class USD extends Coin {
 
-    private double value = 3.52;
+    private final double value = 3.52;
     // Gets the value of USD in ILS
     @Override
     public double getValue(){
